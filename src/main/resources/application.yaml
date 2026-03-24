@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: ratelimiting
+
+ratelimit:
+  token:
+    capacity: 1
+    refill-rate: 1
+  leaky:
+    capacity: 5
+    leak-rate: 2
